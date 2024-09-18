@@ -7,7 +7,7 @@ _Fix stomped imports_
 
 This plugin will fix the import table for a PE with stomped headers in binary ninja.
 
-See the blog post for more details: TODO
+See the blog post for more details: https://labs.nettitude.com/blog/binary-ninja-plugin-fix-stomped-imports
 
 ## Minimum Version
 
