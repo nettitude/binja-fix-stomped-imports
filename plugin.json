@@ -11,8 +11,8 @@
   "api": [
     "python3"
   ],
-"description": "Fix stomped imports",
-  "longdescription": "Recover the imports from a stomped PE header by pasting in an IAT dump from dynamic analysis.",
+"description": "Recover the imports from a stomped PE header by pasting in an IAT dump from dynamic analysis.",
+  "longdescription": "Recover the imports from a stomped PE header by pasting in an IAT dump from dynamic analysis.\n\nSimply copy the IAT during dynamic analysis using e.g. x64dbg and paste it into the plugin dialog.\n\nSee the blog post for more details: https://labs.nettitude.com/blog/binary-ninja-plugin-fix-stomped-imports\n\n**Live malware** example sample: [acf361296c9e1cf5b4ceff11e1790c57e6e1d753df9bef087aadad256dc5a123](https://www.unpac.me/results/c097c055-4cfd-44e7-b493-c692a1a61027?hash=acf361296c9e1cf5b4ceff11e1790c57e6e1d753df9bef087aadad256dc5a123)",
   "license": {
     "name": "MIT",
     "text": "Copyright (c) LRQA Nettitude 2024 \n\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the 'Software'), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED 'AS IS', WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\n"
